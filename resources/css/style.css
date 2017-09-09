@@ -1,8 +1,39 @@
 body {
-
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
 }
-
+/*
 div,
 header {
   border: 1px solid black;
+}
+*/
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+}
+
+#navigation {
+  font-size: 22px;
+}
+
+#header .logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+#navigation .menu {
+  padding-left: 30px;
+}
+
+.menu a {
+  text-decoration: underline;
+  color: seashell;
 }

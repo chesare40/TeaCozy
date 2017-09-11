@@ -3,6 +3,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  font-size: 22px;
 }
 /*
 div,
@@ -11,6 +12,7 @@ header {
 }
 */
 
+
 #header {
   display: flex;
   justify-content: space-between;
@@ -18,10 +20,9 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   width: 100%;
-}
-
-#navigation {
-  font-size: 22px;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
 }
 
 #header .logo img {
@@ -29,11 +30,31 @@ header {
   padding-left: 10px;
 }
 
+
 #navigation .menu {
-  padding-left: 30px;
+  padding-left: 5px;
+  margin-right: 25px;
 }
 
 .menu a {
   text-decoration: underline;
   color: seashell;
+}
+
+#mission {
+  padding-top: 69px;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image {
+  text-align: center;
+  background-color: black;
 }

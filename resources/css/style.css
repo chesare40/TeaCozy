@@ -5,12 +5,11 @@ body {
   opacity: 0.9;
   font-size: 22px;
 }
-/*
-div,
-header {
-  border: 1px solid black;
+
+div {
+  border: 1px solid white;
 }
-*/
+
 
 
 #header {
@@ -44,11 +43,9 @@ header {
 #mission {
   padding-top: 69px;
   height: 700px;
-  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid white;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -57,4 +54,40 @@ header {
 .image {
   text-align: center;
   background-color: black;
+}
+
+.image-2 {
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.image-2 span {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#size {
+  width: 100%
+}
+
+h2, h4 {
+  text-align: center;
+}
+
+#teas {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: 0 100px;
+}
+
+#teas .month {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 500px;
 }

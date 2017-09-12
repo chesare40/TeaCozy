@@ -5,21 +5,29 @@ body {
   opacity: 0.9;
   font-size: 22px;
 }
-
+/*
 div {
   border: 1px solid white;
 }
+*/
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0px;
+  left: 0px;
+}
+
 
 #header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 69px;
-  border-bottom: 1px solid seashell;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  background-color: black;
+
 }
 
 #header .logo img {
@@ -38,9 +46,17 @@ div {
   color: seashell;
 }
 
-#mission {
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 69px;
+}
+
+#mission {
   height: 700px;
+  width: 1200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -68,6 +84,10 @@ div {
   padding: 5px;
 }
 
+.image h2, .image h4 {
+  margin: 20px;
+}
+
 #size {
   width: 100%
 }
@@ -88,6 +108,10 @@ h2, h4 {
   justify-content: center;
   flex-wrap: wrap;
   height: 500px;
+}
+
+#teas .title h2, #teas .title h4{
+  margin: 20px;
 }
 
 #location {
